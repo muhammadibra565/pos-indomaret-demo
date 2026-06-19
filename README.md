@@ -1,4 +1,4 @@
-# 📊 Sistem POS Indomaret - Dokumentasi Struktur
+# Sistem POS Indomaret_Dokumentasi Struktur
 
 ## 📁 Struktur File
 
