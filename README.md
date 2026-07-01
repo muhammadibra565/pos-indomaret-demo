@@ -1,6 +1,6 @@
 # Sistem POS Indomaret_Dokumentasi Struktur
 
-## 📁 Struktur File
+## Struktur File
 
 Proyek ini terdiri dari 4 file utama yang terpisah:
 
@@ -36,7 +36,7 @@ Proyek ini terdiri dari 4 file utama yang terpisah:
 
 ---
 
-## 🚀 Cara Menggunakan
+## Cara Menggunakan
 
 ### Buka Aplikasi
 Cukup buka file `index.html` dengan browser:
@@ -50,16 +50,16 @@ Double-click index.html
 
 ---
 
-## 📋 Modul Utama
+## Modul Utama
 
-### 🧾 Mode Kasir
+### Mode Kasir
 - **Scan Produk**: Input barcode untuk menambah ke keranjang
 - **Qty Control**: Tombol +/- untuk mengubah jumlah
 - **Member**: Tambah member untuk diskon 2% dan poin
 - **Metode Bayar**: Tunai, Debit/Kredit, QRIS, E-Wallet
 - **Cetak Struk**: Print receipt transaksi
 
-### 📊 Mode Manager
+### Mode Manager
 - **Dashboard**: Ringkasan penjualan & stok menipis
 - **Laporan**: Laporan penjualan harian & top produk
 - **Produk**: Tambah, edit, hapus produk
@@ -72,7 +72,7 @@ Double-click index.html
 
 ---
 
-## 🔧 Struktur Kode
+## Struktur Kode
 
 ### Format Fungsi
 ```javascript
@@ -106,24 +106,24 @@ state = {
 
 ---
 
-## 📱 Fitur Utama
+## Fitur Utama
 
-✅ Login multi-user (kasir & manager)
-✅ Scan barcode produk
-✅ Keranjang belanja dengan qty control
-✅ Integrasi member & poin
-✅ 4 metode pembayaran
-✅ Auto-print struk transaksi
-✅ Dashboard real-time
-✅ Kelola produk (CRUD)
-✅ Monitoring stok
-✅ Penerimaan barang
-✅ Retur & komplain
-✅ Promo & diskon
+- Login multi-user (kasir & manager)
+- Scan barcode produk
+- Keranjang belanja dengan qty control
+- Integrasi member & poin
+- 4 metode pembayaran
+- Auto-print struk transaksi
+- Dashboard real-time
+- Kelola produk (CRUD)
+- Monitoring stok
+- Penerimaan barang
+- Retur & komplain
+- Promo & diskon
 
 ---
 
-## 🎨 Warna & Tema
+## Warna & Tema
 
 Tema Indomaret dengan palet warna:
 - **Merah** (#CE1126) - Primary
@@ -133,7 +133,7 @@ Tema Indomaret dengan palet warna:
 
 ---
 
-## 💡 Tips Pengembangan
+## Tips Pengembangan
 
 ### Menambah Produk Baru
 Edit `db.js` dan tambah ke array `DB.produk`:
@@ -167,9 +167,9 @@ Edit `style.css` - Gunakan CSS variables dari `:root` untuk konsistensi warna.
 
 ---
 
-## 🔐 Keamanan & Catatan
+## Keamanan & Catatan
 
-⚠️ **Ini adalah prototype/demo** - Data disimpan di memory saja (hilang saat refresh)
+**Ini adalah prototype/demo** - Data disimpan di memory saja (hilang saat refresh)
 - Untuk production, integrasikan dengan backend API & database
 - Implementasikan validasi input yang lebih ketat
 - Gunakan autentikasi JWT atau session
@@ -177,7 +177,7 @@ Edit `style.css` - Gunakan CSS variables dari `:root` untuk konsistensi warna.
 
 ---
 
-## 📞 Support
+## Support
 
 Jika ada pertanyaan atau ingin menambah fitur:
 1. Edit file yang sesuai (HTML/CSS/JS/DB)
